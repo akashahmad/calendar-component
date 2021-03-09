@@ -4,7 +4,7 @@ import React, { useState, useEffect, FC } from "react";
 // import { getParagonDetails } from "../../requests/podRequests";
 // import { Plant } from "../../models/plant-status/plant.model";
 // import { unique } from "../../utils";
-import Calendar from "./calender";
+// import  Calendar from "./calender";
 
 import moment from "moment";
 import clsx from "clsx";
@@ -1110,7 +1110,7 @@ const Schedule = (props: ScheduleProps) => {
           fullActivies={newData}
         />
       </div>
-      <Calendar />
+      {/* <Calendar /> */}
     </Card>
   );
 };
